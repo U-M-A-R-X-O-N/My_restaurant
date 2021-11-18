@@ -1,0 +1,117 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1240px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  padding-bottom: 150px;
+  background-image: url(../img/hamburger.jpg);
+  background-repeat: no-repeat;
+  background-position: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.block {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+h1 {
+  color: yellow;
+  font-size: 40px;
+  font-weight: 900;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 35px;
+  color: gray;
+}
+
+strong {
+  text-transform: uppercase;
+  line-height: 50px;
+  color: greenyellow;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+input {
+  width: 200px;
+  height: 30px;
+  border-radius: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: 700;
+  background-color: darkkhaki;
+}
+
+input:focus {
+  box-shadow: 0 0 20px blue;
+  background-color: tomato;
+}
+
+button {
+  width: 150px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 900;
+  border: none;
+  background-color: lime;
+  transition: all 0.1s ease;
+}
+
+button:focus {
+  box-shadow: 0 0 20px blue;
+  background-color: darkgreen;
+}
+
+.inline {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.content {
+  margin: 5px;
+  width: 200px;
+  height: 250px;
+  background-color: #0d0915;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.images {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 15px;
+}
+
+.header {
+  color: orange;
+  font-size: 25px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.paragraph {
+  font-size: 22px;
+  color: orangered;
+  font-weight: 700;
+}
